@@ -1,15 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { observer } from "mobx-react-lite";
+import React, { useContext } from "react";
+import { IntlProvider } from "react-intl";
+import { renderRoutes } from "react-router-config";
+import { BrowserRouter } from "react-router-dom";
+import { getLocalMessage } from "./i18n";
+import { routeConfig } from "./router";
+import LanguageStore from "./store/LanguageStore";
 
-class App extends Component {
-  render() {
+const App = observer(() => {
+    const languageStore = useContext(LanguageStore);
     return (
-      <div className="App">
-        Hello from Shiba with travis ci!
-      </div>
+        <IntlProvider locale={languageStore.language} messages={getLocalMessage(languageStore.language)}>
+            <BrowserRouter>
+                {renderRoutes(routeConfig)}
+            </BrowserRouter>
+        </IntlProvider>
     );
-  }
-}
+});
 
 export default App;

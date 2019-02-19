@@ -1,9 +1,10 @@
 import { RouteConfig } from "react-router-config";
+import Home from "../components/Home";
 import Root from "../components/Root";
 
 export const routeConfig: RouteConfig[] = [
     {
-        component: Root,
+        component: Home,
         path: "/",
         // indexRoute: { component: Dashboard },
         // childRoutes: [

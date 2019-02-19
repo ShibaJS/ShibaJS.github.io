@@ -1,0 +1,11 @@
+.Home-Main-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Home-Main-Icon {
+    height: 15vw;
+}
+.Home-Main-Title {
+    margin: 16px;
+}

@@ -1,6 +1,16 @@
 .Header-Background {
     padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.Header-Background .Title {
-    font-size: 2em;
+.Site-Title {
+}
+.Header-Actions {
+    display: flex;
+    align-items: center;
+}
+.Header-Language {
+    width: 100px;
+    margin-left: 16px;
 }

@@ -1,4 +1,26 @@
 {
     "languageName": "English",
-    "document": "Document"
+    "document": "Document",
+    "home": {
+        "main": {
+            "desc": "Next generation cross-platform framework",
+            "actions": {
+                "gettingStart": "Getting start!"
+            }
+        },
+        "desc": {
+            "col1": {
+                "title": "For the future",
+                "content": "This is the only cross-platform development framework that starts in the future, and all the features and code (including documentation) are done in the future. Everything for the future, everything depends on the future, from the future, to the future"
+            },
+            "col2": {
+                "title": "Redefine the next generation",
+                "content": "ShibaJS is not a good tool for this generation of development, and ShibaJS is in the early stages of the development framework. We must unite the various developers around the world, focus on ecological construction, adhere to the basic principles of open source, adhere to continuous reconstruction, self-reliance, and arduous pioneering, and strive to build ShibaJS into an easy-to-use flexible and efficient open source modernization framework."
+            },
+            "col3": {
+                "title": "To the future",
+                "content": "ShibaJS goal is to let some people and some regions by using ShibaJS liberation from the complex multi-platform development fit out, in order to promote and help busy people and regions. By first idle and then idle, the ultimate realization of common leisure"
+            }
+        }
+    }
 }

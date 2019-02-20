@@ -1,22 +1,16 @@
-.Header-Content {
+.Footer-Content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 80vw;
 }
-.Header-Container {
+.Footer-Container {
     padding-top: 16px;
     padding-bottom: 16px;
     display: flex;
     justify-content: center;
 }
-.Site-Title {
-}
-.Header-Actions {
+.Footer-Actions {
     display: flex;
     align-items: center;
-}
-.Header-Language {
-    width: 100px;
-    margin-left: 16px !important;
 }

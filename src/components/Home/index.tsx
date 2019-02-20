@@ -18,7 +18,7 @@ export default function Home() {
                             iconName: "Like",
                         }}
                     >
-                        立即开始！
+                    <FormattedMessage id="home.main.actions.gettingStart"/>
                 </PrimaryButton>
                 </div>
             </div>

@@ -18,7 +18,7 @@ export default function Header() {
     return (
         <div className="Header-Container">
             <div className="Header-Content">
-                <span className="Site-Title ms-font-su ms-fontColor-themePrimary">ShibaJS</span>
+                <span className="Site-Title ms-font-su" style={{ color: "#ff0000" }}>ShibaJS</span>
                 <div className="Header-Actions">
                     {siteMenu.map((it, index) => (
                         <ActionButton

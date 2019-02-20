@@ -13,7 +13,7 @@ const App = observer(() => {
     return (
         <IntlProvider locale={languageStore.language} messages={getLocalMessage(languageStore.language)}>
             <Root>
-                <BrowserRouter>
+                <BrowserRouter basename={process.env.PUBLIC_URL}>
                     {renderRoutes(routeConfig)}
                 </BrowserRouter>
             </Root>

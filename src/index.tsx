@@ -11,6 +11,7 @@ initializeIcons();
 loadTheme({
   palette: {
     themePrimary: "#ff0000",
+    // tslint:disable-next-line:object-literal-sort-keys
     themeLight: "#ffb3b3",
     themeLighter: "#ffd6d6",
     themeLighterAlt: "#fff5f5",

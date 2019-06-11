@@ -24,7 +24,6 @@ export default function Header() {
                         <ActionButton
                             key={index}
                             href={it.route}
-                            target="_blank"
                         >
                             <FormattedMessage
                                 defaultMessage={it.name}

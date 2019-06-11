@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "24.0.6",
-    "@types/node": "11.9.4",
-    "@types/react": "16.8.4",
-    "@types/react-dom": "16.8.2",
-    "@types/react-router-config": "^1.1.1",
-    "mobx": "^5.9.0",
-    "mobx-react-lite": "^1.0.1",
-    "office-ui-fabric-react": "^6.141.1",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-intl": "^2.8.0",
-    "react-router-config": "^4.4.0-beta.6",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.5",
-    "typescript": "3.3.3"
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.7",
+    "@types/react": "16.8.19",
+    "@types/react-dom": "16.8.4",
+    "@types/react-router-config": "^5.0.0",
+    "mobx": "^5.10.1",
+    "mobx-react-lite": "^1.4.0",
+    "office-ui-fabric-react": "^6.189.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-intl": "^2.9.0",
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "typescript": "3.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,9 +37,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@types/react-intl": "^2.3.17",
-    "@types/react-router-dom": "^4.3.1",
+    "@types/react-intl": "^2.3.18",
+    "@types/react-router-dom": "^4.3.3",
     "gh-pages": "^2.0.1",
-    "tslint": "^5.12.1"
+    "tslint": "^5.17.0"
   }
 }

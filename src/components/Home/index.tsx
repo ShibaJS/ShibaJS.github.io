@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className="Home-Container">
             <div className="Home-Main-Container ms-slideUpIn20">
-                <img className="Home-Main-Icon" src="/logo.png" />
+                <img alt="logo" className="Home-Main-Icon" src="/logo.png" />
                 <span className="Home-Main-Title ms-font-su">ShibaJS</span>
                 <span className="Home-Main-Desc">
                     <FormattedMessage id="home.main.desc" />
